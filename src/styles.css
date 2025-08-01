@@ -45,3 +45,8 @@ body{
 .sarch-container input:focus {
     border-color: #ffffff;
 }
+.sarch-container button {
+    background-color: #ffb92a;
+    border:none;
+    cursor: pointer;
+}
