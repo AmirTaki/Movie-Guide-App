@@ -1,17 +1,17 @@
 const movieNameRef = document.getElementById("move-name")
 const searchBtn = document.getElementById("search-btn")
 const result = document.getElementById("result")
-
+const key = "4743b145";
 
 const getMovie = () => {
-    const movieName = movieNameRef.ariaValueMax;
+    const movieName = movieNameRef.value;
     let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
     if(movieName.length <= 0){
         result.innerHTML = `<h3 class = "msg">Please Enter A Movie Name</h3>`       
     }
     else{
-        fetch (url).then((res)=> 
-            res.json()).then((data) =>{
+        fetch(url).then((resp)=> 
+            resp.json()).then((data) =>{
                if(data.Response == "True"){
                     result.innerHTML = `
                     <div class = "info">
