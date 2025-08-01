@@ -16,6 +16,13 @@ const getMovie = () => {
                     result.innerHTML = `
                     <div class = "info">
                         <img src = ${data.Poster} class = "poster">
+                        <div>
+                            <h2>${data.Title}</h2>
+                            <div class = "rating">
+                                <img src = "star-icon.svg">
+                                <h4></h4>
+                            </div>
+                        </div></div>
                         `
                }     
         })
