@@ -27,6 +27,9 @@ const getMovie = () => {
                                 <span>${data.Year}</span>
                                 <span>${data.Runtime}</span>
                             </div>
+                            <div class = "genre">
+                                <div>${data.Genre.split(",").json("<div></div>")} </div>
+                            </div>
                         </div>
                     </div>
                     <h3>Plot:</h3>
