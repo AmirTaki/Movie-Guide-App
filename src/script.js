@@ -6,4 +6,7 @@ const result = document.getElementById("result")
 const getMovie = () => {
     const movieName = movieNameRef.ariaValueMax;
     let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+    if(movieName.length <= 0){
+        result.innerHTML = `<h3 class = "msg">Please Enter A Movie Name</h3>`       
+    }
 }
