@@ -44,3 +44,5 @@ const getMovie = () => {
         });
     }
 }
+searchBtn.addEventListener("click", getMovie);
+window.addEventListener("load", getMovie)
