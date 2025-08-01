@@ -134,5 +134,13 @@ p {
     .container {
         font-size: 14px;
     }
-    
+    .info{
+        grid-template-columns: 1fr;
+    }
+    .poster{
+        margin: auto;
+        width:auto;
+        max-height: 10.8em;
+    }
+
 }
