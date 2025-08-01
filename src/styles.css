@@ -124,5 +124,15 @@ p {
     line-height: 1.8em;
     text-align : justify;
     color: #a0a0a0
+}
 
+.msg{
+    text-align: center;
+}
+
+@media screen and (max-width : 600px) {
+    .container {
+        font-size: 14px;
+    }
+    
 }
