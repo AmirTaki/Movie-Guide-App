@@ -102,5 +102,13 @@ h2 {
 }
 
 .genre {
-    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+.genre div {
+    border: 1px solid #a0a0a0;
+    font-size: .75em;
+    padding: .4em 1.6em;
+    border-radius: .4em;
+    font-weight: 300
 }
