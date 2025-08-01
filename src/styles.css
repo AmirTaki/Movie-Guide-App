@@ -34,3 +34,14 @@ body{
     outline: none;
     border-radius : .3em
 }
+
+.sarch-container input {
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    padding: .7em;
+    color: #ffffff;
+}
+
+.sarch-container input:focus {
+    border-color: #ffffff;
+}
