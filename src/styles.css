@@ -22,30 +22,30 @@ body{
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, .2);
 }
 
-.sarch-container {
+.search-container {
     display: grid;
     grid-template-columns: 9fr 3fr;
     gap: 1.2em
 }
 
-.sarch-container input,
-.sarch-container button {
+.search-container input,
+.search-container button {
     font-size: .9em;
     outline: none;
     border-radius : .3em
 }
 
-.sarch-container input {
+.search-container input {
     background-color: transparent;
     border: 1px solid #a0a0a0;
     padding: .7em;
     color: #ffffff;
 }
 
-.sarch-container input:focus {
+.search-container input:focus {
     border-color: #ffffff;
 }
-.sarch-container button {
+.search-container button {
     background-color: #ffb92a;
     border:none;
     cursor: pointer;
@@ -72,4 +72,12 @@ h2 {
     font-size : 1.5em;
     font-weight : 600;
     letter-spacing: .06em;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6em;
+    margin: .6em 0 0 .9em 0;
 }
