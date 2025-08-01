@@ -2,7 +2,6 @@ const movieNameRef = document.getElementById("move-name")
 const searchBtn = document.getElementById("search-btn")
 const result = document.getElementById("result")
 const key = "4743b145";
-
 const getMovie = () => {
     const movieName = movieNameRef.value;
     let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
@@ -19,7 +18,7 @@ const getMovie = () => {
                         <div>
                             <h2>${data.Title}</h2>
                             <div class = "rating">
-                                <img src="star-icon.svg">
+                                <img src="./src/images/star_PNG41449.png">
                                 <h4>${data.imdbRating}</h4>
                             </div>
                             <div class = "details">
