@@ -20,9 +20,11 @@ const getMovie = () => {
                             <h2>${data.Title}</h2>
                             <div class = "rating">
                                 <img src = "star-icon.svg">
-                                <h4></h4>
+                                <h4>${data.imdbRating}</h4>
                             </div>
-                        </div></div>
+                            <div class = "details"></div>
+                        </div>
+                    </div>
                         `
                }     
         })
