@@ -19,7 +19,7 @@ const getMovie = () => {
                         <div>
                             <h2>${data.Title}</h2>
                             <div class = "rating">
-                                <img src = "star-icon.svg">
+                                <img src="star-icon.svg">
                                 <h4>${data.imdbRating}</h4>
                             </div>
                             <div class = "details">
@@ -28,7 +28,7 @@ const getMovie = () => {
                                 <span>${data.Runtime}</span>
                             </div>
                             <div class = "genre">
-                                <div>${data.Genre.split(",").json("<div></div>")} </div>
+                                <div>${data.Genre.split(",").join("</div><div>")}</div>                           
                             </div>
                         </div>
                     </div>
