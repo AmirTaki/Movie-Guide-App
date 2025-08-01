@@ -15,5 +15,11 @@ body{
     padding: 3em 1.8em;
     background-color: #201f28;
     position: absolute;
-    transform : translate(-50%, -50%)
+    transform : translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    border-radius: .6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, .2);
 }
+
+.sarch-con
