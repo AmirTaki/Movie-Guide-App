@@ -39,6 +39,8 @@ const getMovie = () => {
                     result.innerHTML = `<h3 class = 'msg'>${data.Error} </h3>`;
                }
         })
-        .catch()
+        .catch(()=>{
+            result.innerHTML = `<h3 class = "msg">Error Occured</h3>`;
+        });
     }
 }
