@@ -9,4 +9,10 @@ const getMovie = () => {
     if(movieName.length <= 0){
         result.innerHTML = `<h3 class = "msg">Please Enter A Movie Name</h3>`       
     }
+    else{
+        fetch (url).then((res)=> 
+            res.json()).then((data) =>{
+                
+        })
+    }
 }
