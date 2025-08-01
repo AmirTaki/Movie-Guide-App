@@ -36,8 +36,9 @@ const getMovie = () => {
                     `;
                }     
                else {
-                
+                    result.innerHTML = `<h3 class = 'msg'>${data.Error} </h3>`;
                }
         })
+        .catch()
     }
 }
